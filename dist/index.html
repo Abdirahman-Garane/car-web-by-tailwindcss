@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Cars</title>
+  </head>
+  <body class="bg-white">
+    <div
+      class="nav shadow p-4 md:p-7 md:px-12 flex items-center md:justify-between"
+    >
+      <div class="icon ml-4 flex flex-col justify-center items-center">
+        <img class="w-12 md:w-14 sm:w-20" src="../icons/sedan.png" alt="" />
+        <h1
+          class="hidden text-md sm:text-lg sm:w-24 sm:text-green-500 sm:font-semibold sm:leading-6 font-primary"
+        >
+          Curubo Cars
+        </h1>
+      </div>
+      <div
+        class="links sm:hidden md:flex capitalize ml-16 justify-between w-11/12 md:w-1/5"
+      >
+        <li class="list-none text-lg hover:text-gray-400 hover:cursor-pointer">
+          home
+        </li>
+        <li class="list-none text-lg hover:text-gray-400 hover:cursor-pointer">
+          price
+        </li>
+        <li class="list-none text-lg hover:text-gray-400 hover:cursor-pointer">
+          about
+        </li>
+      </div>
+      <div class="search sm:w-full md:w-fit flex justify-end items-start pt-4">
+        <form class="">
+          <div class="mb-4">
+            <input
+              class="shadow appearance-none border rounded w-60 sm:w-40 py-2 px-4 text-black leading-tight focus:outline-none focus:shadow-outline"
+              id="username"
+              type="text"
+              placeholder="Search For"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container flex flex-col md:flex-row items-center w-full">
+      <div class="text mt-10 md:w-1/2 flex flex-col px-2">
+        <div class="headline md:p-14">
+          <h1
+            class="leading-snug font-semibold text-3xl md:text-5xl md:leading-normal"
+          >
+            Find The Simplest Way to Drive Revolution With Terra Auto.
+          </h1>
+        </div>
+        <div class="paragraph mt-4 md:px-14 md:-mt-7">
+          <p class="text-sm md:text-lg text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nisi
+            nec arcu sollicitudin tempor in vel dui.
+          </p>
+        </div>
+        <div class="button mt-5 flex flex-row md:mb-10 md:ml-12">
+          <h1
+            class="text-center text-sm font-medium rounded-md text-white hover:text-green-500 py-4 px-9 mr-3 bg-green-500 hover:bg-white hover:cursor-pointer border-solid border-2 border-green-400"
+          >
+            Buy A Car
+          </h1>
+          <h1
+            class="text-center text-sm font-medium rounded-md text-white hover:text-green-500 py-4 px-9 bg-green-500 hover:bg-white hover:cursor-pointer border-solid border-2 border-green-400"
+          >
+            Rent A Car
+          </h1>
+        </div>
+      </div>
+
+      <img
+        class="mt-6 md:w-1/2 md"
+        src="../icons/11-2-car-picture.png"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
